@@ -1,0 +1,41 @@
+/* card one */
+.card-1{
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    height: 70vh;
+    grid-area: card1;
+    border-radius: 18px;
+    background: whitesmoke;
+    box-shadow: 5px 5px 15px rgba(26, 25, 25, 0.425);
+    position: relative;
+    
+    
+}
+
+
+/* card Two */
+.card-2{
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    grid-area: card2;
+    height: 70vh;
+    border-radius: 18px;
+    background: whitesmoke;
+    box-shadow: 5px 5px 15px rgba(26, 25, 25, 0.425);
+    position: relative;
+}
+
+
+
+
+/* card Three */
+.card-3{
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    height: 70vh;
+    grid-area: card3;
+    border-radius: 18px;
+    background: whitesmoke;
+    box-shadow: 5px 5px 15px rgba(26, 25, 25, 0.425);
+    position: relative;
+}

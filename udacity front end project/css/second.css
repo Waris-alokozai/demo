@@ -1,0 +1,43 @@
+/* button */
+
+.btn{
+    width: 120px;
+    height: 55px;
+    border-radius: 12px;
+    border: none;
+    background: #aa093f7c;
+    font-family: 'Poppins';
+    font-size: large;
+    cursor: pointer;
+    color: white;
+    box-shadow: 2px 2px 5px  black;
+}
+.btn:hover{
+    width: 122px;
+    height: 57px;
+    transition: 0.2s;
+    font-weight: bolder;
+
+}
+#logo:hover{
+    color: rgba(235, 0, 0, 0.452);
+    transition: 0.4s;
+}
+
+.btn-card-1 button,
+.btn-card-2 button,
+.btn-card-3 button{
+      color: rgba(0, 0, 0, 0.637);
+      border: none;
+      cursor: pointer;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      border-bottom: 2px solid rgba(0, 0, 0, 0.438);
+      width: 150px;
+  }
+  .btn-card-1 a, .btn-card-2 a, .btn-card-3 a{
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.637);
+  }
+
+
+

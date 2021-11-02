@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Dosis:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background:#9198e5 #9198e5;
+}
+
+
+
+/* logo */
+#logo{
+    font-size: 1.5em;
+    padding: 10px;
+    position: absolute;
+    letter-spacing: 2px;
+    left: 10%;
+    top: 5px;
+    font-family: 'Lobster', cursive;
+    cursor: pointer;
+    color: rgb(128, 3, 101);
+}
+
+#logo:hover{
+    color: rgba(235, 0, 0, 0.452);
+    transition: 0.4s;
+}
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    min-height: 10vh;
+    align-items: center;
+    
+    
+}
+.navbar ul a{
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15pt;
+    color: rgb(0, 0, 0);
+}
+
+/* hover over navs */
+.navbar ul a:hover{
+    font-size: 21px;
+    transition: 0.2s;
+}
+
+.navbar li{
+    list-style: none;
+}
+.nav_links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    position: relative;
+    left: 30%;
+    
+}
+
+
+.nav_links .posts{
+    border-bottom: solid rgb(0, 0, 0);
+    padding: 10px;
+}
+        
+/* blog header */
+
+
+header .blog-h1{
+    background: linear-gradient(#e66465, #9198e5);
+    text-align: center;
+    font-family: 'Poppins';
+    padding: 20px;
+}
+
+
+
+
+#same-section{
+    font-family: "Poppins";
+    padding: 10px;
+}
+.content{
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 350px;
+    gap: 50px;
+    
+}
+
+.card-1, .card-2, .card-3{
+    padding: 10px;
+ 
+}
+.card-1 img{
+    background-size: cover;
+    width: 100%;
+}
+.card-1 h2,
+ p{
+    font-family: 'Poppins';
+}
+
+
+.card-2 img{
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+.card-3 img{
+    background-size: cover;
+    width: 100%;
+}
+
+/* contents section */
+.article{
+    padding: 10px;
+    
+}
+
+.about{
+    position: relative;
+    margin: 25px;
+    justify-content: center;
+    right: 10px;
+    padding-top: 10px;
+    
+}
+.about p{
+    font-family: 'Hammersmith One', sans-serif;
+    position: relative;
+    left: 15px;
+}
+.about img{
+    background-size: cover;
+    padding: 20px;
+    width: 100%;
+    
+}
+.h2-about{
+    font-family: inherit;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 10px;
+    font-family: 'Hammersmith One', sans-serif;
+    padding: 5px;
+}
+#open{
+    color: rgba(235, 0, 0, 0.452);
+}
+
+.follow-me{
+    position: relative;
+    top: 30px;
+    left: 12px;
+}
+
+.flw-me{
+    font-family: cursive;
+    position: relative;
+    
+}
+
+.media{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20pt;
+    color: rgba(255, 0, 0, 0.616);
+    
+}
+.media:hover{
+    color: rgba(235, 0, 0, 0.452);
+}
+/* recents post section */
+.rcnt-txt{
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.recents{
+    box-shadow: 5px 5px 4px 4px rgba(0, 0, 0, 0.411);
+    padding: 1em;
+    position: relative;
+    top: 100px;
+    
+}
+.sec-1 img,
+ .sec-2 img,
+  .sec-3 img{
+    background-size: cover;
+    width: 100%;
+}
+.sec-1 p,
+ .sec-2 p,
+  .sec-3 p{
+    color: crimson;
+}
+.sec-1 h4,
+ .sec-2 h4,
+  .sec-3 h4{
+    font-family: 'Poppins';
+    position: relative;
+    left: 15px;
+    padding-top: 5px;
+}
+#txt-position{
+    position: relative;
+    padding: 10px;
+}
+
+.search-bar{
+    position: relative;
+    top: 200vh;
+    left: 10px;
+    width: 90%;
+}
+.search-bar input, button{
+    width: 75%;
+    border: 2px solid rgba(0, 0, 0, 0.561);
+    border-right: 0px;
+    font-size: 18px;
+    padding: 12px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+}
+.search-bar button{
+    width: 25%;
+    background: rgba(0, 0, 0, 0.63);
+    float: right;
+    border-left: 0px;
+}
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 200vh;
+    background: linear-gradient(#e66465, #9198e5);
+    margin: 25px;
+    padding: 2em;
+    line-height: 2em;
+    height: 30vh;
+    width: autos;
+    border-radius: 10px;
+    
+}
+
+.linkz li,
+.linkz a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Poppins';
+    list-style: none;
+}
+.linkz a:hover{
+    color: red;
+    font-weight: bold;
+}
+.src{
+    font-family: 'Poppins';
+}
+
+
+
+@media (max-width: 600px){
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px;
+    }
+
+    .about{
+        position: relative;
+        margin: auto;
+        top: 170vh;
+    }
+    .search-bar{
+        position: relative;
+        top: 200vh;
+        left: 10px;
+        width: 95%;
+    }
+    .footer{
+        justify-content: space-between;
+        
+        margin: 10px;
+        padding: 10px;
+        line-height: 20px;
+        height: 250px;
+        width: auto;
+        display: block;
+        text-align: center;
+        padding: 25px;
+    }
+    #logo{
+        font-size: 12pt;
+        
+    }
+    .nav_links li a{
+        font-size: small;
+        
+    }
+    body{
+        min-width: 350px;
+    }
+    
+}
+
+
+@media (max-width: 800px){
+    .footer{
+        justify-content: space-between;
+        margin: 10px;
+        padding: 30px;
+        line-height: 20px;
+        height: 250px;
+        width: auto;
+        display: block;
+        text-align: center;
+    }
+    .footer .src{
+        padding: 30px;
+        
+    }
+    .recents h4{
+        font-size: 10px;
+    }
+    .about p{
+        font-size: 10px;
+    }
+}
+
